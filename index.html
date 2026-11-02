@@ -38,26 +38,38 @@
     <div class="scroll">scroll<span></span></div>
   </section>
 
-  <section id="about" class="sec">
-    <div class="sec-head"><span class="num">01</span><h2>Learn by building.</h2></div>
-    <div class="about-grid">
-      <div class="about-copy reveal">
-        <p>I started with Python and curiosity, and kept going by shipping things. Backend services with FastAPI, ML pipelines, an AI agent evaluation platform, and dashboards I could put in front of real people.</p>
-        <p>I care about the boring part that makes AI trustworthy: measuring whether it works. That habit shows up in every project below.</p>
-        <p>I also work on Figma and front-end design, so I enjoy both sides of a product.</p>
-      </div>
-      <div class="stats reveal">
-        <div class="stat tilt"><b data-count="41">0</b><span>Google Cloud skill badges</span></div>
-        <div class="stat tilt"><b data-count="8.18" data-dec="2">0</b><span>CGPA, B.Tech AI &amp; DS</span></div>
-        <div class="stat tilt"><b data-count="10">0</b><span>public repos on GitHub</span></div>
-        <div class="stat tilt"><b data-count="3">0</b><span>internships so far</span></div>
-      </div>
+  <section id="about" class="sec story-section">
+    <p class="section-kicker">01 / HOW I GOT HERE</p>
+    <div class="story-layout">
+      <div><h2 class="story-title">It started with <span class="marker">Python</span><span class="spark">✳</span><br>and a lot of curiosity.<br>Now I build things<br>and ask <span class="circled">does it work?</span></h2>
+      <p class="story-body">From ML pipelines to backend services and LLM agents, I learn by making something real. The part I keep coming back to? Testing the idea, finding what breaks, and making it better.</p></div>
+      <div class="paper-stack"><div class="scrap lavender"><span class="pin"></span><small>THE SHORT VERSION</small><b>AI &amp; Data Science.<br>Builder at heart.</b><p>Final-year B.Tech<br>CGPA: 8.18</p><span class="hand">always learning ↗</span></div><div class="scrap mint"><span class="pin"></span><b>41</b><p>Google Cloud<br>skill badges</p><span class="hand">one lab at a time.</span></div></div>
     </div>
+    <div class="experience-strip"><span>Along the way</span><b>Digitalytic Technologies</b><i>✳</i><b>CodeAlpha</b><i>✳</i><b>Innovation Hacks</b></div>
   </section>
-
+  <section id="path" class="sec journey-section">
+    <p class="section-kicker">02 / THE JOURNEY</p><h2>Small steps.<br><span class="marker">Real things built.</span></h2><p class="lead">A few stops on the way. Pick a pin to read the story.</p>
+    <div class="journey-map">
+      <div class="map-grid" aria-hidden="true"></div><div class="map-river" aria-hidden="true"></div>
+      <svg class="map-route" viewBox="0 0 1000 520" preserveAspectRatio="none" aria-hidden="true"><path d="M140 350 C150 80 420 70 470 220 S800 490 850 160"/></svg>
+      <div class="map-compass" aria-hidden="true">N<br><span>✦</span></div><span class="map-label">A WORK IN THE MAKING</span>
+      <button class="map-pin p1 active" data-stop="0" aria-label="Digitalytic Technologies, 2025"><span>01</span><b>Digitalytic</b></button>
+      <button class="map-pin p2" data-stop="1" aria-label="CodeAlpha, 2026"><span>02</span><b>CodeAlpha</b></button>
+      <button class="map-pin p3" data-stop="2" aria-label="Innovation Hacks, 2026"><span>03</span><b>Innovation Hacks</b></button>
+      <button class="map-pin p4" data-stop="3" aria-label="Final year B.Tech"><span>04</span><b>Final year</b></button>
+      <article class="journey-card" aria-live="polite"><div class="journey-card-top"><span id="journey-date"></span><span id="journey-count"></span></div><h3 id="journey-title"></h3><p id="journey-description"></p><span class="ticket-stamp">KEEP BUILDING ↗</span></article>
+    </div>
+    <div class="journey-controls"><button id="prev-stop" aria-label="Previous stop">←</button><span id="stop-name"></span><button id="next-stop" aria-label="Next stop">→</button></div>
+  </section>
   <section id="work" class="sec">
-    <div class="sec-head"><span class="num">02</span><h2>Things I built, and what they showed.</h2></div>
-    <p class="lead reveal">Hover a card. Live demos are linked where they exist.</p>
+    <p class="section-kicker">03 / SELECTED WORK</p><h2>Ideas out of my head.<br><span class="marker">Projects out in the world.</span></h2>
+    <p class="lead">Pick a card from the collection. There is a story behind each build.</p>
+    <div class="project-box"><div class="box-lid" aria-hidden="true"><span>THE BUILD COLLECTION</span></div><div class="project-deck" role="tablist" aria-label="Featured projects">
+    <button role="tab" aria-selected="true" data-project="0" class="project-tab active"><small>01 / EVALUATION</small><b>Agent<br>Evals</b><span>50 tasks. One question.</span><i>↗</i></button>
+    <button role="tab" aria-selected="false" data-project="1" class="project-tab"><small>02 / LLM AGENT</small><b>Recovery<br>Agent</b><span>Guardrails first.</span><i>↗</i></button>
+    <button role="tab" aria-selected="false" data-project="2" class="project-tab"><small>03 / DASHBOARD</small><b>Dev<br>Pulse</b><span>Find the signal.</span><i>↗</i></button>
+    <button role="tab" aria-selected="false" data-project="3" class="project-tab"><small>04 / DATA</small><b>Rena<br>AI</b><span>From messy to trusted.</span><i>↗</i></button></div><div class="box-front" aria-hidden="true">made of curiosity &amp; too many iterations <span>✳</span></div></div>
+    <div class="selected-label"><span class="hand">↑ pick a card, see the build</span><button id="all-projects" aria-expanded="false">Show all 8 projects +</button></div>
     <div class="cards">
       <article class="card tilt reveal">
         <div class="tag">AI evaluation</div>
@@ -119,26 +131,16 @@
     </div>
   </section>
 
-  <section id="path" class="sec">
-    <div class="sec-head"><span class="num">03</span><h2>The path so far.</h2></div>
-    <ol class="timeline">
-      <li class="reveal"><time>Jun - Jul 2025</time><h4>ML &amp; AI Intern</h4><p>Digitalytic Technologies, Chennai. Four-week internship.</p></li>
-      <li class="reveal"><time>Jun 2026</time><h4>AI Intern</h4><p>CodeAlpha. Virtual internship.</p></li>
-      <li class="reveal"><time>Aug - Sep 2026</time><h4>Full Stack Development Intern</h4><p>Innovation Hacks. Built DevPulse as the program project.</p></li>
-      <li class="reveal"><time>Final year</time><h4>B.Tech, AI &amp; Data Science</h4><p>Final year. Smart Care AI, a patient-monitoring device, is my team's final-year project.</p></li>
-    </ol>
-  </section>
-
   <section id="toolkit" class="sec">
-    <div class="sec-head"><span class="num">04</span><h2>My toolkit.</h2></div>
-    <p class="lead reveal">Hover a tool to see what I use it for.</p>
+    <p class="section-kicker">04 / THE TOOLKIT</p><h2>Different tools.<br><span class="marker">Same curiosity.</span></h2>
+    <p class="lead reveal">A little of my workbench. Tap or hover to see what each tool does.</p>
     <div class="tools" id="tools"></div>
     <div class="growing reveal"><span>Currently growing into</span> React, Next.js and Node.js, for the full-stack side.</div>
   </section>
 
   <section id="contact" class="sec contact">
-    <div class="sec-head"><span class="num">05</span><h2>Let's build something.</h2></div>
-    <p class="lead reveal">Open to entry-level roles in AI, backend and full-stack. I reply fast.</p>
+    <p class="section-kicker">05 / SAY HELLO</p><h2>Good things start<br>with a <span class="circled">hello.</span></h2>
+    <p class="lead">Open to entry-level roles in AI, backend and full-stack.</p><div class="contact-paper"><span class="hand">a new idea? a role? just saying hi? ↙</span>
     <div class="mail reveal">
       <a href="mailto:yuvasree.ar@gmail.com" id="mail">yuvasree.ar@gmail.com</a>
       <button id="copy" type="button">Copy email</button>
@@ -149,12 +151,13 @@
       <a href="mailto:yuvasree.ar@gmail.com">Email</a>
     </div>
     <p class="keys">psst, these work on your keyboard too: <kbd>M</kbd> mail <kbd>G</kbd> GitHub <kbd>L</kbd> LinkedIn</p>
+    </div>
   </section>
 </main>
 
 <footer><span>&copy; 2026 Yuvasree A</span><a href="#top">Back to top</a></footer>
 
-<div class="note" id="note" title="drag me">
+<div class="note" id="note" title="drag me" hidden>
   <b>psst</b>
   these notes move ;)
 </div>
