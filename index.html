@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yuvasree A | AI &amp; Backend Developer</title>
+<meta name="description" content="Portfolio of Yuvasree A, final-year B.Tech AI &amp; Data Science student. Python, APIs, LLM systems and evaluation." />
+<meta property="og:title" content="Yuvasree A | AI &amp; Backend Developer" />
+<meta property="og:description" content="I learn by building. Projects in AI evaluation, LLM agents, ML and full-stack dashboards." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230a0a1a'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23a78bfa' font-family='Arial' font-weight='700'%3EY%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div class="grain"></div>
+
+<header class="nav">
+  <a href="#top" class="logo">ya<span>.</span></a>
+  <nav>
+    <a href="#about">About</a><a href="#work">Work</a><a href="#path">Path</a><a href="#toolkit">Toolkit</a><a href="#contact" class="pill">Say hi</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">hey, I'm Yuvasree</p>
+      <h1>I build AI that<br/><em>actually works.</em></h1>
+      <p class="sub">Final-year B.Tech student in AI &amp; Data Science. I build backend services, LLM systems and the tests that prove they hold up.</p>
+      <div class="cta">
+        <a href="#work" class="btn primary">See my work</a>
+        <a href="https://github.com/yuvasree023" target="_blank" rel="noopener" class="btn">GitHub</a>
+      </div>
+      <p class="hint">move your mouse, the shapes follow</p>
+    </div>
+    <div class="scroll">scroll<span></span></div>
+  </section>
+
+  <section id="about" class="sec">
+    <div class="sec-head"><span class="num">01</span><h2>Learn by building.</h2></div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p>I started with Python and curiosity, and kept going by shipping things. Backend services with FastAPI, ML pipelines, an AI agent evaluation platform, and dashboards I could put in front of real people.</p>
+        <p>I care about the boring part that makes AI trustworthy: measuring whether it works. That habit shows up in every project below.</p>
+        <p>I also work on Figma and front-end design, so I enjoy both sides of a product.</p>
+      </div>
+      <div class="stats reveal">
+        <div class="stat tilt"><b data-count="41">0</b><span>Google Cloud skill badges</span></div>
+        <div class="stat tilt"><b data-count="8.18" data-dec="2">0</b><span>CGPA, B.Tech AI &amp; DS</span></div>
+        <div class="stat tilt"><b data-count="10">0</b><span>public repos on GitHub</span></div>
+        <div class="stat tilt"><b data-count="3">0</b><span>internships so far</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work" class="sec">
+    <div class="sec-head"><span class="num">02</span><h2>Things I built, and what they showed.</h2></div>
+    <p class="lead reveal">Hover a card. Live demos are linked where they exist.</p>
+    <div class="cards">
+      <article class="card tilt reveal">
+        <div class="tag">AI evaluation</div>
+        <h3>Agent Evals</h3>
+        <p>Measures how reliably a customer-support AI agent handles refunds, cancellations and address changes. 50 tasks, 15 of them a locked holdout, with my own pass/fail critiques used to validate the LLM judge.</p>
+        <p class="finding">Finding: the agent sometimes made changes without the customer's explicit yes.</p>
+        <ul class="chips"><li>Python</li><li>SQLite</li><li>LLM-as-judge</li><li>Groq</li><li>Gemini</li></ul>
+        <div class="links"><a href="https://agent-evals-seven.vercel.app" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/yuvasree023/agent-evals" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">LLM agent</div>
+        <h3>Recovery Agent</h3>
+        <p>An autonomous agent that recovers failed transactions, with fail-closed guardrails and a full audit trail. Replaying 223 historical transactions showed a +9.19 pp lift versus control.</p>
+        <p class="finding">Simulated replay, not real revenue.</p>
+        <ul class="chips"><li>Python</li><li>LLM agents</li><li>Guardrails</li><li>Tests</li></ul>
+        <div class="links"><a href="https://recovery-agent-kohl.vercel.app" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/yuvasree023/RECOVERY_AGENT" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">Full-stack dashboard</div>
+        <h3>DevPulse</h3>
+        <p>A dashboard that studies how AI coding tools change developer productivity: cycle time, throughput and pull requests, with K-Means developer clustering and insights grounded in the data.</p>
+        <ul class="chips"><li>FastAPI</li><li>REST APIs</li><li>scikit-learn</li><li>Gemini</li></ul>
+        <div class="links"><a href="https://devpulse-app-snowy.vercel.app/dashboard" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/yuvasree023/DEV_PULSE" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">Data engineering</div>
+        <h3>Rena AI</h3>
+        <p>A product data engine that takes conflicting sources and turns them into validated golden records.</p>
+        <ul class="chips"><li>TypeScript</li><li>Data validation</li></ul>
+        <div class="links"><a href="https://rena-ai-alpha.vercel.app" target="_blank" rel="noopener">Live demo</a><a href="https://github.com/yuvasree023/Rena-AI" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">ML in production</div>
+        <h3>Telco Customer Churn</h3>
+        <p>End-to-end churn prediction: an XGBoost model tracked in MLflow, served through FastAPI and Gradio, containerised with Docker, with CI/CD and an AWS ECS deployment workflow.</p>
+        <ul class="chips"><li>XGBoost</li><li>MLflow</li><li>Docker</li><li>GitHub Actions</li><li>AWS ECS</li></ul>
+        <div class="links"><a href="https://github.com/yuvasree023/Telco_Customer_Churn" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">Retrieval</div>
+        <h3>Ask the Policy Book</h3>
+        <p>Compliance question answering over a policy corpus, with citations, access control and freshness handling, plus a one-command script to reproduce the results.</p>
+        <ul class="chips"><li>Python</li><li>Retrieval</li><li>Citations</li></ul>
+        <div class="links"><a href="https://github.com/yuvasree023/op-05-ask-the-policy-book" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">Gen AI tool</div>
+        <h3>Resume Optimizer</h3>
+        <p>Scores a resume against a job and rewrites bullets in the STAR format using Llama 3.3 70B.</p>
+        <ul class="chips"><li>Python</li><li>Groq</li><li>Streamlit</li></ul>
+        <div class="links"><a href="https://github.com/yuvasree023/Resume-optimizer" target="_blank" rel="noopener">Code</a></div>
+      </article>
+      <article class="card tilt reveal">
+        <div class="tag">Also on GitHub</div>
+        <h3>Smaller experiments</h3>
+        <p><b>Heart Disease Prediction</b> compares four classifiers on 303 patient records. <b>Journal Assistant</b> is a journal app built with TypeScript and Firebase.</p>
+        <div class="links"><a href="https://github.com/yuvasree023?tab=repositories" target="_blank" rel="noopener">All repositories</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="path" class="sec">
+    <div class="sec-head"><span class="num">03</span><h2>The path so far.</h2></div>
+    <ol class="timeline">
+      <li class="reveal"><time>Jun - Jul 2025</time><h4>ML &amp; AI Intern</h4><p>Digitalytic Technologies, Chennai. Four-week internship.</p></li>
+      <li class="reveal"><time>Jun 2026</time><h4>AI Intern</h4><p>CodeAlpha. Virtual internship.</p></li>
+      <li class="reveal"><time>Aug - Sep 2026</time><h4>Full Stack Development Intern</h4><p>Innovation Hacks. Built DevPulse as the program project.</p></li>
+      <li class="reveal"><time>Final year</time><h4>B.Tech, AI &amp; Data Science</h4><p>Final year. Smart Care AI, a patient-monitoring device, is my team's final-year project.</p></li>
+    </ol>
+  </section>
+
+  <section id="toolkit" class="sec">
+    <div class="sec-head"><span class="num">04</span><h2>My toolkit.</h2></div>
+    <p class="lead reveal">Hover a tool to see what I use it for.</p>
+    <div class="tools" id="tools"></div>
+    <div class="growing reveal"><span>Currently growing into</span> React, Next.js and Node.js, for the full-stack side.</div>
+  </section>
+
+  <section id="contact" class="sec contact">
+    <div class="sec-head"><span class="num">05</span><h2>Let's build something.</h2></div>
+    <p class="lead reveal">Open to entry-level roles in AI, backend and full-stack. I reply fast.</p>
+    <div class="mail reveal">
+      <a href="mailto:yuvasree.ar@gmail.com" id="mail">yuvasree.ar@gmail.com</a>
+      <button id="copy" type="button">Copy email</button>
+    </div>
+    <div class="socials reveal">
+      <a href="https://github.com/yuvasree023" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/yuvasree-a-039360275" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:yuvasree.ar@gmail.com">Email</a>
+    </div>
+    <p class="keys">psst, these work on your keyboard too: <kbd>M</kbd> mail <kbd>G</kbd> GitHub <kbd>L</kbd> LinkedIn</p>
+  </section>
+</main>
+
+<footer><span>&copy; 2026 Yuvasree A</span><a href="#top">Back to top</a></footer>
+
+<div class="note" id="note" title="drag me">
+  <b>psst</b>
+  these notes move ;)
+</div>
+<div class="toast" id="toast">Email copied</div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
